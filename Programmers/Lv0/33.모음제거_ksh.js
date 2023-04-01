@@ -1,5 +1,5 @@
 function solution(my_string) {
-  const arr = my_string.split("");
+  const arr = [...my_string];
 
   const answer = arr.filter((el) => el !== "a" && el !== "e" && el !== "i" && el !== "o" && el !== "u").join("");
   return answer;
