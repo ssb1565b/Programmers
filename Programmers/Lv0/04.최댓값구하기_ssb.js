@@ -14,3 +14,5 @@ function solution(numbers) {
 }
 
 console.log(solution([10, 10, 10, 2, 3, 0]));
+
+
