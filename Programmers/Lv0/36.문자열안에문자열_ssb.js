@@ -1,7 +1,4 @@
-const solution = (str1, str2) => {
-  const result = [...str1].filter((el) => str2.includes(el));
-  return result ? 1 : 2;
-};
+const solution = (str1, str2) => (str1.includes(str2) ? 1 : 2);
 
-console.log(solution("ab6CDE443fgh22iJKlmn1o", "6CD"));
+console.log(solution("ppprrrogrammers", "pppp"));
 // 실패
