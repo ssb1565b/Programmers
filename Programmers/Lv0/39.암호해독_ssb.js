@@ -8,3 +8,4 @@ const solution = (cipher, code) => {
 
 // 실패
 console.log(solution("dfjardstddetckdaccccdegk", "4"));
+console.log(solution("dfjardstddetckdaccccdegk", "4"));
