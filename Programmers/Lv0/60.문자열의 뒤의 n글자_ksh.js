@@ -1,1 +1,3 @@
-const soultion = () => {};
+const soultion = () => {
+  return;
+};
