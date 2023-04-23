@@ -1,3 +1,4 @@
+//  실패.. 하는중
 const solution = (n) => {
   let result = new Array();
   let set = true;
@@ -22,5 +23,3 @@ const solution = (n) => {
 };
 console.log(solution(12));
 console.log(solution(17));
-
-//  실패..
