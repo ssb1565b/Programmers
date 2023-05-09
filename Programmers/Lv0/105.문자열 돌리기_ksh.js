@@ -10,5 +10,5 @@ rl.on("line", function (line) {
   input = [line];
 }).on("close", function () {
   str = input[0];
-  [...str].map((el) => console.log(el));
+  for(let i of str) console.log(i);
 });
