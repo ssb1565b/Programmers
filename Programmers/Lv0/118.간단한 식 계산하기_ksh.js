@@ -6,3 +6,4 @@ function solution(binomial) {
 console.log(solution("43 + 12"));
 console.log(solution("0 - 7777"));
 console.log(solution("40000 * 40000"));
+  
