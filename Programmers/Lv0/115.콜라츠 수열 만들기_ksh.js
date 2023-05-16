@@ -10,7 +10,7 @@ function solution(n) {
     n = n / 2;
     answer.push(n);
   }
-  return answer;
+  return answer;  
 }
 
 console.log(solution(10));

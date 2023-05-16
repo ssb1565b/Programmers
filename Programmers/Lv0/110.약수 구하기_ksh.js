@@ -7,3 +7,4 @@ function solution(n) {
 
 console.log(solution(24));
 console.log(solution(29));
+  
