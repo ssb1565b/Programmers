@@ -1,19 +1,15 @@
 function solution(num_list) {
-  var answer = 0;
-  const fun = (num) => {
-    let c = num;
-    if (c === 1) return c;
-    if (c % 2 === 0) {
-      answer++;
-      c = c / 2;
-    } else if (c % 2 === 1) {
-      answer++;
-      c = (c - 1) / 2;
+  let answer = 0;
+  for (let i = 0; i < num_list.length; i++) {
+    while (num_list[i] !== 1) {
+      if (num_list[i] % 2 === 1) {
+        num_list[i] = (num_list[i] - 1) / 2;
+        answer += 1;
+      } else {
+        num_list[i] = num_list[i] / 2;
+        answer += 1;
+      }
     }
-    return fun(c);
-  };
-  for (let c of num_list) {
-    fun(c);
   }
   return answer;
 }
