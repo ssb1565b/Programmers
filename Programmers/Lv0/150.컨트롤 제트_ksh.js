@@ -1,8 +1,11 @@
 function solution(s) {
-  s = s.split(" ");
-  let arr = [];
-  for (let v of s) v === "Z" ? (arr.length ? arr.pop() : "") : arr.push(v);
-  return arr.reduce((a, v) => a + +v, 0);
+  const arr = [...s.split(" ")].map(Number);
+  let answer = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] !== "number") answer -= arr[i - 1];
+    else answer += arr[i];
+  }
+  return answer;
 }
 
 console.log(solution("1 2 Z 3"));
