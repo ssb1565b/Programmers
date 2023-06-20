@@ -3,3 +3,4 @@ const solution = (bin1, bin2) =>
 
 console.log(solution("10", "11"));
 console.log(solution("1001", "1111"));
+    
