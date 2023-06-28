@@ -1,3 +1,5 @@
+// 해시
+
 const solution = (clothes) => {
   let answer = 1;
   let obj = {};
@@ -16,3 +18,11 @@ const solution = (clothes) => {
 
   return answer - 1; // 입지 않는 경우의 수 1 빼기
 };
+
+console.log(
+  solution([
+    ["yellow_hat", "headgear"],
+    ["blue_sunglasses", "eyewear"],
+    ["green_turban", "headgear"],
+  ])
+);
