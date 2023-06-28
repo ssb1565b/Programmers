@@ -1,3 +1,5 @@
+// 큐 : 가장 먼저 추가된 요소가 가장 먼저 제거됨 (선입선출)
+
 const solution = (k, score) => {
   const newArr = [];
 
