@@ -11,4 +11,4 @@ function solution(my_string) {
   return sum;
 }
 
-console.log(solution("3 + 4"));
+console.log(solution("3 + 4 - 1"));
