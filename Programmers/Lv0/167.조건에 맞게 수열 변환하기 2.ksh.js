@@ -1,5 +1,5 @@
 function solution(arr) {
-  arr2 = [arr];
+  let arr2 = [arr];
   let cnt = 0;
   while (true) {
     cnt += 1;
