@@ -1,9 +1,5 @@
 function solution(arr) {
-<<<<<<< HEAD
   let arr2 = [arr];
-=======
-  arr2 = [arr];
->>>>>>> e873dceabb2455a0747378c60ce5c2ebbec8954f
   let cnt = 0;
   while (true) {
     cnt += 1;
