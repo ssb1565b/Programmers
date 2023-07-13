@@ -8,5 +8,3 @@ function solution(strArr) {
   const arr = Object.values(obj).map((el) => el.length);
   return Math.max(...arr);
 }
-
-console.log(solution(["a", "bc", "d", "efg", "hi"]));

@@ -8,7 +8,7 @@ function solution(arr1, arr2) {
     }
     answer.push(inner);
   }
-  return 1;
+  return answer;
 }
 
 console.log(
