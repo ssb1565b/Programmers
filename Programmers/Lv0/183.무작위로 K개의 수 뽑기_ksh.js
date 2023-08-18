@@ -1,13 +1,14 @@
 function solution(arr, k) {
-  var answer = [];
-  for (let i = 0; i < arr.length; i += 1) {
-    if (answer.length === k) return answer;
-    if (answer.indexOf(arr[i]) === -1) answer.push(arr[i]);
-  }
+  const answer = [];
+  arr.forEach((el) => {
+    if (!answer.find((v) => v === el)) {
+      answer.push(el);
+    }
+  });
   while (answer.length < k) {
     answer.push(-1);
   }
-  return answer;
+  return answer.splice(0, k);
 }
 
 console.log(solution([0, 1, 1, 2, 2, 3], 3));
