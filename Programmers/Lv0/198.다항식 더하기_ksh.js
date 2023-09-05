@@ -20,4 +20,3 @@ function solution(polynomial) {
 }
 
 console.log(solution("3x + 7 + x"));
-console.log(solution("x + x + x"));
