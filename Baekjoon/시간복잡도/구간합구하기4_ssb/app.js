@@ -13,6 +13,7 @@ const prefixSums = [0];
 let currentSum = 0;
 for (let i = 0; i < N; i++) {
   currentSum += calculatedValue[i];
+  console.log("currentSum", currentSum);
   prefixSums.push(currentSum);
 }
 
