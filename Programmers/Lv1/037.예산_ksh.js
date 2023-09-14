@@ -1,9 +1,6 @@
 function solution(d, budget) {
-  d.sort((a, b) => a - b);
-  while (d.reduce((a, b) => a + b, 0) > budget) {
+  while (d.sort((a, b) => a - b).reduce((sum, i) => sum + i, 0) > budget)
     d.pop();
-  }
-
   return d.length;
 }
 
